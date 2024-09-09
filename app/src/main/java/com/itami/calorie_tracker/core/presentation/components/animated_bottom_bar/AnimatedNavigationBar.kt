@@ -30,6 +30,7 @@ import com.itami.calorie_tracker.core.presentation.components.animated_bottom_ba
 import com.itami.calorie_tracker.core.presentation.components.animated_bottom_bar.layout.animatedNavBarMultipleMeasurePolicy
 import com.itami.calorie_tracker.core.presentation.components.animated_bottom_bar.utils.ballTransform
 
+// Based on the library from exyte (https://github.com/exyte/AndroidAnimatedNavigationBar)
 @Composable
 fun AnimatedNavigationBar(
     modifier: Modifier = Modifier,
