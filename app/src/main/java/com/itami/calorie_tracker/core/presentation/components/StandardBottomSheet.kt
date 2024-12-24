@@ -23,7 +23,8 @@ internal fun rememberSheetState(
         saver = SheetState.Saver(
             skipPartiallyExpanded = skipPartiallyExpanded,
             confirmValueChange = confirmValueChange,
-            density = density
+            density = density,
+            skipHiddenState = true
         )
     ) {
         SheetState(
